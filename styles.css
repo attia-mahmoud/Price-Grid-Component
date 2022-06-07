@@ -83,6 +83,7 @@ button {
     height: 30rem;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
+    transform: translate(0, 35%);
   }
 
   .container-info {
