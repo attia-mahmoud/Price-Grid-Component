@@ -1,50 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
+    <title>Frontend Mentor | Single Price Grid Component</title>
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="container">
+    <main class="grid-container container-main">
+      <div class="container container-info flex">
+        <h1 class="cyan fs-600 fw-700">Join our community</h1>
 
-  30-day, hassle-free money back guarantee
+        <h4 class="yellow fs-400 fw-700">
+          30-day, hassle-free money back guarantee
+        </h4>
+        <p class="gray fs-300 line-height-1 fw">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
+      <div class="container-price flex">
+        <h2 class="fs-500 fw-700">Monthly Subscription</h2>
+        <div class="">
+          <p class="rate gray-light flex">
+            <span class="white fs-700 fw-700"> &dollar;29 </span>
+            per month
+          </p>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
+          <p class="fs-300">Full access for less than &dollar;1 a day</p>
+        </div>
 
-  Monthly Subscription
+        <button class="fs-400 white fw-700">Sign Up</button>
+      </div>
+      <div class="container-list">
+        <h2 class="fs-500 fw-700">Why Us</h2>
 
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+        <ul>
+          <li class="fs-200 letter-spacing-3">Tutorials by industry experts</li>
+          <li class="fs-200 letter-spacing-3">Peer &amp; expert code review</li>
+          <li class="fs-200 letter-spacing-3">Coding exercises</li>
+          <li class="fs-200 letter-spacing-3">Access to our GitHub repos</li>
+          <li class="fs-200 letter-spacing-3">Community forum</li>
+          <li class="fs-200 letter-spacing-3">Flashcard decks</li>
+          <li class="fs-200 letter-spacing-3">New videos every week</li>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
